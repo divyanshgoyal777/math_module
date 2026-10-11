@@ -158,6 +158,10 @@ function sumOfAPByFormula(a, d, n) {
     return (n / 2) * (2 * a + (n - 1) * d);
 }
 
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 module.exports = {
     double,
     absolute,
@@ -183,4 +187,5 @@ module.exports = {
     newtonSquareRoot,
     sumOfAP,
     sumOfAPByFormula,
+    randomInt,
 }

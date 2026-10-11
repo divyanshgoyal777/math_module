@@ -20,3 +20,4 @@ math.primeFactors(12);
 console.log(math.newtonSquareRoot(10));
 console.log(math.sumOfAP(2, 3, 5));
 console.log(math.sumOfAPByFormula(2, 3, 5))
+console.log(math.randomInt(20, 100));
